@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  detalki-chain:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/data
+    environment:
+      - PORT=8080
+      - DATA_DIR=/data
+      - DIFFICULTY=4
+      - MINING_REWARD=50
+      - GENESIS_SUPPLY=100000000
+      - API_KEY=
+    restart: unless-stopped
