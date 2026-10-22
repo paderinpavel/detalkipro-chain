@@ -1,0 +1,28 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1790889988,
+      "transactions": [
+        {
+          "from": "GENESIS",
+          "to": "dtk_genesis_0000000000000000",
+          "amount": 100000000,
+          "fee": 0,
+          "nonce": 0,
+          "order_id": "",
+          "pubkey": "GENESIS",
+          "sig": "GENESIS"
+        }
+      ],
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "2cf402e52e80bc318827a2b2cb675d9f29dda3d4bc5490b3dac57b7886524cc9",
+      "nonce": 0,
+      "miner": "genesis"
+    }
+  ],
+  "balances": {
+    "dtk_genesis_0000000000000000": 100000000
+  },
+  "nonces": {}
+}

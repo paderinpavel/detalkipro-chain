@@ -1,0 +1,20 @@
+[Unit]
+Description=DetalkiPro Chain Node
+After=network.target
+
+[Service]
+Type=simple
+User=detalki
+WorkingDirectory=/opt/detalki-chain
+ExecStart=/opt/detalki-chain/detalki-node
+Environment=PORT=8080
+Environment=DATA_DIR=/opt/detalki-chain/data
+Environment=DIFFICULTY=4
+Environment=MINING_REWARD=50
+Environment=GENESIS_SUPPLY=100000000
+Environment=API_KEY=
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
