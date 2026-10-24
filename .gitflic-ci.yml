@@ -1,0 +1,8 @@
+stages:
+  - sanity
+sanity:
+  stage: sanity
+  image: alpine:latest
+  script:
+    - echo "Detalkipro Chain repo is alive"
+    - ls -la
