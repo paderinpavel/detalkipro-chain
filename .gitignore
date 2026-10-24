@@ -1,35 +1,12 @@
-# macOS
+target/
+*.jar
+*.class
+.idea/
+*.iml
+.vscode/
 .DS_Store
-._*
-
-# Build / cache
-.cache/
-tmp_pub.b64
-
-# Backups
-*.tar.gz
-backup/
-detalkipro-backup-*.tar.gz
-detalkipro-backup-config/
-
-# Keys (НИКОГДА не коммить!)
 *.key
 *.pem
-*.pub
-validator*.key
-validator*.pem
-validator*.pub
-
-# Logs
-*.log
-parser_full.log
-
-# Local config
-.gitconfig
-.zshrc
-.bash_history
-.profile
-
-# Env
+passport.json
+erachain.properties
 .env
-.env.local
